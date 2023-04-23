@@ -4,21 +4,21 @@ There are a couple of tools you need to set up the environment before you can cr
 Install Python
 1. First, you need to install Python on your computer. Open this link and download the setup file for your platform.
 
-Build Your Own AI Chatbot With ChatGPT 3.5 (2023)
+Build Your Own AI Chatbot With ChatGPT 3.5
 2. Next, run the setup file and make sure to enable the checkbox for “Add Python.exe to PATH.” This is an extremely important step. After that, click on “Install Now” and follow the usual steps to install Python.
 
-Build Your Own AI Chatbot With ChatGPT 3.5 (2023)
+Build Your Own AI Chatbot With ChatGPT 3.5 
 3. To check if Python is properly installed, open Terminal on your computer. I am using Windows Terminal on Windows, but you can also use Command Prompt. Once here, run the below command below, and it will output the Python version. On Linux or other platforms, you may have to use python3 --version instead of python --version.
 
 python --version
-Build Your Own AI Chatbot With ChatGPT 3.5 (2023)
+Build Your Own AI Chatbot With ChatGPT 3.5 
 Upgrade Pip
 Along with Python, Pip is also installed simultaneously on your system. In this section, we will learn how to upgrade it to the latest version. In case you don’t know, Pip is the package manager for Python. Basically, it enables you to install thousands of Python libraries from the Terminal. With Pip, we can install OpenAI and Gradio libraries. Here is how to go about it.
 
 1. Open the Terminal of your choice on your PC. As for me, I’m using the Windows Terminal. Now, run the below command to update Pip. Again, you may have to use python3 and pip3 on Linux or other platforms.
 
 python -m pip install -U pip
-Build Your Own AI Chatbot With ChatGPT 3.5 (2023)
+Build Your Own AI Chatbot With ChatGPT 3.5 
 Install OpenAI and Gradio Libraries
 1. Now, it’s time to install the OpenAI library, which will allow us to interact with ChatGPT through their API. In the Terminal, run the below command to install the OpenAI library using Pip. If the command does not work, try running it with pip3.
 
@@ -80,20 +80,20 @@ gr.Interface(fn=chatbot, inputs=inputs, outputs=outputs, title="AI Chatbot",
              theme="compact").launch(share=True)
 2. This is how it looks in the code editor. Make sure to replace the “Your API key” text with your own API key generated above. That’s the only change you have to make.
 
-Build Your Own AI Chatbot With ChatGPT 3.5 (2023)
+Build Your Own AI Chatbot With ChatGPT 3.5 
 3. Next, click on “File” in the top menu and select “Save As…” from the drop-down menu.
 
-Build Your Own AI Chatbot With ChatGPT 3.5 (2023)
+Build Your Own AI Chatbot With ChatGPT 3.5 
 4. After that, set the file name as “app.py” and change “Save as type” to “All types” from the drop-down menu. Then, save the file to an easily-accessible location like the Desktop. You can change the name to your preference, but make sure .py is appended.
 
-Build Your Own AI Chatbot With ChatGPT 3.5 (2023)
+Build Your Own AI Chatbot With ChatGPT 3.5 
 5. Now, move to the location where you saved the file (app.py). Right-click on it and choose “Copy as path“.
 
-Build Your Own AI Chatbot With ChatGPT 3.5 (2023)
+Build Your Own AI Chatbot With ChatGPT 3.5 
 6. Open the Terminal and run the below command. Simply enter python, add a space, paste the path (right-click to quickly paste), and hit Enter. Keep in mind, the file path will be different for your computer. Also, on Linux systems, you may have to use python3.
 
 python "C:\Users\mearj\Desktop\app.py"
-Build Your Own AI Chatbot With ChatGPT 3.5 (2023)
+Build Your Own AI Chatbot With ChatGPT 3.5 
 7. You may get a few warnings, but ignore them. At the bottom, you will get a local and public URL. Now, copy the local URL and paste it into the web browser.
 
 Build Your Own AI Chatbot With the "gpt-3.5-turbo" Model and Gradio Interface
